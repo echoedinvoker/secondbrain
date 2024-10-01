@@ -1,0 +1,8 @@
+---
+date: {{date}}
+type: fact
+hubs:
+  - "[[]]"
+---
+
+# {{title}}
