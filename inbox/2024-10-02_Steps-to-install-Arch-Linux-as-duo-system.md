@@ -21,29 +21,19 @@ hubs:
 
 3. 連接到互聯網：
    - 如果使用有線連接，應該自動連接。
-   - 如果使用 Wi-Fi，使用 `iwctl` 命令連接。
+   - 如果使用 Wi-Fi，使用 [[1727849366-CCEE|iwctl]] 命令連接。
 
-4. 分區：
-   - 使用 `lsblk` 查看現有分區。
-   - 使用 `cfdisk` 或 `fdisk` 在未分配空間中創建新分區。
-   - 通常需要創建 root 分區（/）和 swap 分區。
+4. [[1727849572-LTCP|分區]]
 
-5. 格式化分區：
-   - 格式化 root 分區：`mkfs.ext4 /dev/sdXY`
-   - 創建 swap：`mkswap /dev/sdXZ`
+5. [[1727850171-KDQM|格式化]]分區
 
-6. 掛載分區：
-   - 掛載 root 分區：`mount /dev/sdXY /mnt`
-   - 啟用 swap：`swapon /dev/sdXZ`
+6. [[1727850261-TZQB|掛載]]分區
 
-7. 安裝基本系統：
-   - 使用 pacstrap：`pacstrap /mnt base linux linux-firmware`
+7. 安裝基本系統(使用 [[1727850583-OQVK|pacstrap]])
 
-8. 生成 fstab：
-   - `genfstab -U /mnt >> /mnt/etc/fstab`
+8. 生成 [[1727850792-AVTG|fstab]]
 
-9. Chroot 到新系統：
-   - `arch-chroot /mnt`
+9. [[1727850914-LUIE|Chroot]] 到新系統
 
 10. 配置系統：
     - 設置時區
