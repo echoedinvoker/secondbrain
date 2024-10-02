@@ -11,11 +11,11 @@ hubs:
 
 1. 準備工作：
    - 確保您有足夠的硬碟空間用於 Arch Linux。
-   - 下載並製作 Arch Linux 的 USB 安裝媒體（您已經準備好了）。
+   - 下載並製作 Arch Linux 的 USB 安裝媒體。
    - 在 Ubuntu 中壓縮現有分區，為 Arch Linux 創建未分配空間。
 
 2. 從 USB 啟動 Arch Linux 安裝環境：
-   - 重啟電腦，進入 BIOS/UEFI 設置。
+  - 重啟電腦，進入 BIOS/UEFI 設置。(我的Acer Aspire 5是按F2)
    - 將啟動順序改為優先從 USB 啟動。
    - 保存設置並重啟，選擇從 USB 啟動。
 
@@ -23,28 +23,37 @@ hubs:
    - 如果使用有線連接，應該自動連接。
    - 如果使用 Wi-Fi，使用 [[1727849366-CCEE|iwctl]] 命令連接。
 
-4. [[1727849572-LTCP|分區]]
+4. 更新系統時鐘 [[1727888741-SNNL|timedatectl]]
 
-5. [[1727850171-KDQM|格式化]]分區
+5. [[1727849572-LTCP|分區]]
 
-6. [[1727850261-TZQB|掛載]]分區
+6. [[1727850171-KDQM|格式化]]分區
 
-7. 安裝基本系統(使用 [[1727850583-OQVK|pacstrap]])
+7. [[1727850261-TZQB|掛載]]分區
 
-8. 生成 [[1727850792-AVTG|fstab]]
+8. 安裝基本系統(使用 [[1727850583-OQVK|pacstrap]])
 
-9. [[1727850914-LUIE|Chroot]] 到新系統
+9. 生成 [[1727850792-AVTG|fstab]]
 
-10. 配置系統：
-    - 設置時區
-    - 本地化設置
-    - 設置主機名
-    - 設置 root 密碼
-    - 創建新用戶
+10. [[1727850914-LUIE|Chroot]] 到新系統
 
-11. 安裝和配置引導加載程序（如 GRUB）：
-    - 安裝 GRUB：`pacman -S grub efibootmgr`
-    - 安裝 GRUB：`grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB`
-    - 生成 GRUB 配置：`grub-mkconfig -o /boot/grub/grub.cfg`
+11. 配置系統：
+    - [[1727889653-LYRH|設置時區]]
+    - [[1727889734-VRXY|本地化設置]]
+    - [[1727889805-NEJF|設置主機名]]
+    - [[1727889892-QLSX|設置 root 密碼]]
+    - [[1727889957-PJRU|創建新用戶]]
+    - [[1727890418-JRPV|sudoer 設置]]
 
-12. 退出 chroot 環境，卸載分區，重啟系統。
+12. 安裝和配置[[1727890715-BKRP|引導加載程序]]：
+
+13. 安裝其他好用的軟件：
+    - [[1727891034-TFGP|網路管理軟件]]
+    - [[1727891148-HMFX|CPU微碼更新]]
+
+13. 退出 chroot 環境，卸載分區，重啟系統。
+```bash
+exit
+umount -R /mnt
+reboot
+```
