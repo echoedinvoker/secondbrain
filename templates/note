@@ -1,6 +1,8 @@
 ---
 date: {{date}}
 type: fact
+aliases:
+  -
 hubs:
   - "[[]]"
 ---
