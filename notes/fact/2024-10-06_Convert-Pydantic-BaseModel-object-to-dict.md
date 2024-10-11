@@ -7,9 +7,7 @@ hubs:
   - "[[Python]]"
 ---
 
-#Pydantic #dict
-
-# Convert Pydantic BaseModel object to dict
+# Convert #Pydantic BaseModel object to dict
 
 ## before Pydantic 2
 
