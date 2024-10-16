@@ -16,6 +16,7 @@ bluetoothctl # 進入 bluetoothctl prompt
 power on
 agent on
 default-agent
+scan on # 進入掃描前先讓 IPOD Pro 2 進入配對模式
 pair C4:35:D9:23:D1:83  # 只有第一次 pairing 需要, 以後就不用這個了
 connect C4:35:D9:23:D1:83
 quit # 離開 bluetoothctl
