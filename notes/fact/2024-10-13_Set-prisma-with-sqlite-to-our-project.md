@@ -42,4 +42,8 @@ datasource db {
 }
 ```
 
-You can [[2024-10-13_Adding-model-to-prisma-schema|add models]] to the schema file.
+You can [[2024-10-13_Adding-model-to-prisma-schema|add models]] to the schema file also.
+
+Everytime you change the schema file, you need to [[2024-10-16_Commit-prisma-schema|commit]] it.
+
+Usually, we will export a [[2024-10-13_Create-prisma-client-to-access-database|db]] for our project to interact with the database.
