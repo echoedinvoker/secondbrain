@@ -13,11 +13,11 @@ hubs:
 
 Go to [https://github.com/settings/applications/new]
 
-![create-github-oath-app.png](../assets/imgs/create-github-oath-app.png)
+![create-github-oath-app.png](../../assets/imgs/create-github-oath-app.png)
 
 And collect client id and secret for project setup.
 
-![collect-id-n-secret.png](../assets/imgs/collect-id-n-secret.png)
+![collect-id-n-secret.png](../../assets/imgs/collect-id-n-secret.png)
 
 
 

@@ -33,7 +33,7 @@ revalidatepath(`/topics/${slug}/posts/${postId}`)
 ```bash
 src/
 └── app 
-   ├── contents  # <------------------- for some reason, we may need to add a new folder here
+    ├── contents  # <------------------- for some reason, we may need to add a new folder here
     │   └── topics                    # then, we should update the path in many components and server actions
     │       └── [slug]                # It can be a pain to update all of them...
     │           └── posts

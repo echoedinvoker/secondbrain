@@ -27,7 +27,7 @@ export default function demoPage() {  // Must be a server component
 
 ```
 
-It is usefull when you want to do something on the server, like [[2024-10-13_Run-database-CRUD-in-the-action-function|saving data to the database]] , sending email, etc. 
+It is usefull when you want to do something on the server, like [[2024-10-13_Run-database-CRUD-in-the-action-function|saving data to the database]], [[2024-10-19_Validate-form-submit-with-zod|validate form submit]], sending email, etc. 
 
 
 **When we want to create or mutate data, we should consider using the action function at first.**
@@ -37,7 +37,7 @@ That's because the action function is executed on the server-side, and it is mor
 
 **Action function con only be defined in the server component, but the client component can call it**
 
-Even client component cannot define the action function, it can still call the action function defined in the server component. There are two options to realize it.
+Even client component cannot define the action function, it can still call the action function defined in the server component or in [[2024-10-14_Server-Actions-in-a-Seperate-File|seperate file]]. There are two options to realize it.
 
 1. [[2024-10-14_Props-server-action-to-the-client-component|Define it in the server component and props it to the client component]]
 2. [[2024-10-14_Define-server-action-in-a-seperate-file|Define server action in a seperate file and import it to the client component]]

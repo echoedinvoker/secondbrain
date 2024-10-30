@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "994040d206da7d20",
+        "id": "dc0826d0863c0c72",
         "type": "tabs",
         "children": [
           {
-            "id": "0bd4b38d28187b34",
+            "id": "3715eea33b0fd9fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Adverbs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "c8b2f7ada26d582d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "03e68fad7155d974",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -62,13 +48,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#test",
+                "query": "project reco",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -76,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ],
@@ -84,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "81687622c8f6ff1e",
@@ -100,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adverbs.md",
+                "file": "inbox/2024-10-23_Recursive-component.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +99,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-10-23_Recursive-component"
             }
           },
           {
@@ -117,10 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Adverbs.md",
+                "file": "inbox/2024-10-23_Recursive-component.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-10-23_Recursive-component"
             }
           },
           {
@@ -131,7 +126,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -140,8 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adverbs.md"
-              }
+                "file": "inbox/2024-10-23_Recursive-component.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-10-23_Recursive-component"
             }
           }
         ]
@@ -161,8 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bd4b38d28187b34",
+  "active": "3715eea33b0fd9fb",
   "lastOpenFiles": [
+    "notes/fact/2024-10-16_Adding-comments-on-what-paths-you'll-need-to-revalidate-for-each-server-action.md",
+    "notes/fact/2024-10-16_Recommended-Initial-Design-before-coding-project.md",
+    "notes/fact/2024-10-16_Create-Github-OAth-app.md",
+    "notes/fact/2024-10-16_Example-of-identifying-all-routes-table.md",
+    "inbox/2024-10-24_Notodo-routes-and-data-plan.md~",
+    "inbox/2024-10-24_Notodo-routes-and-data-plan.md",
+    "inbox/2024-10-23_Recursive-component.md",
+    "notes/index/2024-10-21_Using-Data:-Database-Queries.md",
+    "notes/index/2024-10-21_Using-Data:-Database-Queries.md~",
+    "inbox/2024-10-23_Recursive-component.md~",
     "notes/fact/2024-10-01_The-9-Big-Parts-of-Speech.md",
     "Adverbs.md",
     "Verbs.md",

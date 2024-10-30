@@ -22,3 +22,5 @@ hubs:
 | | - /snippets/\[id]/edit/page.tsx |
 
 There is no need to remember all the content above, just frequently use the `npm run build` command to check if the latest `build` result meets your expectations.
+
+Sometime our route will become dynamic unexpectedly, it may be some reasons [[2024-10-18_Why-all-routes-become-dynamic?|Why all routes become dynamic?|here]].

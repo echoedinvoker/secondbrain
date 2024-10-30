@@ -36,6 +36,9 @@ export default function ClientComponent() {
 
 ```
 
+When we first put `useFormState` in the component, usually there is a tsc error on the 1st argument of `useFormState`, don't worry about it, [[2024-10-20_Fix-tsc-error-of-useFormState|here]] is the reason and the way to fix it.
+
+
 **This can work without JS**
 
 Although useFormState is a hook, it saves the formState in the HTML form. So when the action is executed, the formState will be sent to the backend. After the backend processes it, the new formState will be sent back. This way, the formState can be updated on the frontend without using JavaScript.

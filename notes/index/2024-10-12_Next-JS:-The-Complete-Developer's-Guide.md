@@ -16,4 +16,6 @@ hubs:
 5. [[2024-10-15_Server-Forms-with-the-UseFormState-Hook|Server Forms with the UseFormState Hook]]
 6. [[2024-10-15_Understanding-Next's-Caching-System|Understanding Next's Caching System]]
 7. [[2024-10-15_Authentication-with-Next-Auth|Authentication with Next Auth]]
-
+8. [[2024-10-21_Using-Data:-Database-Queries|Using Data: Database Queries]]
+9. [[2024-10-25_Caching-with-Request-Memoization|Caching with Request Memoization]]
+10. [[2024-10-26_Implementing-Search-Functionality|Implementing Search Functionality]]
