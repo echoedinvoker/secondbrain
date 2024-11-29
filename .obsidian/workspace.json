@@ -4,17 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "dc0826d0863c0c72",
+        "id": "b0de46bb5c9d5aa6",
         "type": "tabs",
         "children": [
           {
-            "id": "3715eea33b0fd9fb",
+            "id": "d153e6690323ac77",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "c50405d0aa78ffee",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Release Notes 1.7.7"
             }
           }
         ]
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "project reco",
+                "query": "sendgrid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 707.5,
     "collapsed": true
   },
   "right": {
@@ -160,24 +172,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3715eea33b0fd9fb",
+  "active": "d153e6690323ac77",
   "lastOpenFiles": [
+    "hubs/sv5.md",
+    "inbox/2024-11-24_Send-email-through-SendGrid.md",
+    "inbox/2024-11-24_Send-out-email-with-digital-product-on-payment-webhook-from-stripe.md",
+    "notes/index/2024-11-03_Project1:-Prodect-Landing-Page-with-Stripe-Integration.md",
+    "notes/index/2024-11-01_Master-Svelte-5-&-SvelteKit---Build-&-Deploy-Real-World-Apps.md",
+    "inbox/2024-11-11_Deciding-when-to-use-enums-vs-structs-when-there-are-many-things-need-to-define.md",
+    "inbox/2024-11-08_Visualize-Complex-Example-of-rule-1-and-2-of-twelve-rules.md",
+    "inbox/2024-11-08_Visualizing-Ownership-and-Moves.md",
+    "inbox/2024-11-07_Ownership-and-Borrowing:-Rust-Unique-Memory-System.md",
+    "inbox/2024-11-05_Rust:-The-Complete-Developers's-Guide.md",
+    "hubs/RUST.md",
+    "inbox/2024-11-07_Use-things-insides-modules.md",
+    "notes/fact/2024-10-21_Handle-generic-error-in-server-action-with-useFormState.md",
+    "notes/fact/2024-10-16_Setup-NextAuth-in-Nextjs-project.md",
+    "notes/fact/2024-10-16_Must-have-models-for-next-auth.md",
+    "notes/fact/2024-10-16_Install-dependencies-of-next-auth.md",
+    "notes/fact/2024-10-16_Commit-prisma-schema.md",
+    "notes/fact/2024-10-15_Prisma-client-to-update-a-record.md",
+    "notes/index/2024-10-15_Calling-a-Server-Action-from-a-Client-Component.md",
+    "notes/fact/2024-10-14_Monaco-code-editor.md",
+    "notes/fact/2024-10-13_Set-prisma-with-sqlite-to-our-project.md",
+    "notes/fact/2024-10-13_Directly-query-db-and-render-the-result.md",
+    "notes/fact/2024-10-13_Create-prisma-client-to-access-database.md",
+    "notes/index/2024-10-13_Changin-Data-with-Mutations.md",
+    "notes/fact/2024-10-13_Adding-model-to-prisma-schema.md",
     "notes/fact/2024-10-16_Adding-comments-on-what-paths-you'll-need-to-revalidate-for-each-server-action.md",
-    "notes/fact/2024-10-16_Recommended-Initial-Design-before-coding-project.md",
-    "notes/fact/2024-10-16_Create-Github-OAth-app.md",
-    "notes/fact/2024-10-16_Example-of-identifying-all-routes-table.md",
     "inbox/2024-10-24_Notodo-routes-and-data-plan.md~",
-    "inbox/2024-10-24_Notodo-routes-and-data-plan.md",
-    "inbox/2024-10-23_Recursive-component.md",
-    "notes/index/2024-10-21_Using-Data:-Database-Queries.md",
     "notes/index/2024-10-21_Using-Data:-Database-Queries.md~",
-    "inbox/2024-10-23_Recursive-component.md~",
-    "notes/fact/2024-10-01_The-9-Big-Parts-of-Speech.md",
-    "Adverbs.md",
-    "Verbs.md",
-    "Nouns.md",
-    "inbox/2024-10-01_Task:-推播管理系統2.md",
-    "inbox/2024-09-30_Test3.md",
-    "Welcome.md"
+    "inbox/2024-10-23_Recursive-component.md~"
   ]
 }
