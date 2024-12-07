@@ -1,0 +1,139 @@
+---
+date: 2024-11-30
+type: fact
+aliases:
+  -
+hubs:
+  - "[[Tailwindcss]]"
+---
+
+# background shadow
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Backgrounds & Shadows</title>
+  </head>
+  <body>
+    <!-- Background Classes -->
+    <div
+      class="h-64 w-72 bg-blue-500 bg-cover bg-no-repeat bg-center"
+                              <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ bg-cover is to **size** the image to cover the entire element, there are other classes to size the image -->
+                              <!--                                 by default, the image is repeated to fill the element, but bg-no-repeat stops that, there are other classes to define the repeatation -->
+                              <!--                                 be-center is to **position** the image place in the center of the element, there are other classes to define the position -->
+      style="background-image: url('../assets/img/img1.jpg')"
+ <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ we can use style to load images instead of using img tag -->
+    ></div>
+
+    <!-- Gradients -->
+    <div class="h-24 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+                <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Tailwindcss just make the Gradients very eazy to use -->
+    <div
+      class="h-24 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+    ></div>
+
+    <!-- Shadows -->
+    <div class="w-96 mt-6 ml-4 p-3 shadow-md">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+      deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+    </div>
+    <div class="w-96 mt-6 ml-4 p-3 shadow-lg">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+      deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+    </div>
+    <div class="w-96 mt-6 ml-4 p-3 shadow-xl">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+      deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+    </div>
+    <div class="w-96 mt-6 ml-4 p-3 shadow-2xl">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+      deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+    </div>
+    <div class="w-96 mt-6 ml-4 p-3 shadow-inner">
+                                     <!-- ^^^^^ it means put the shadow inside the element, which make element looks like not floating but deep in the page -->
+                                                
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+      deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+    </div>
+    <!-- Shadow Colors -->
+    <div class="w-96 mt-6 ml-4 p-3 shadow-xl shadow-blue-500/50">
+                                                       <!-- ^^^ we can set opacity of the shadow color -->
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+      deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+    </div>
+    <div class="w-96 mt-6 ml-4 p-3 shadow-xl shadow-red-500/100">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+      deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+    </div>
+
+    <!-- Mix Blend -->
+    <div class="flex justify-center -space-x-24">
+                               <!-- ^ we can use negative sign as prefix, it will effect the value of the property -->
+                               <!--   here it will make flex items overlap each other for demo `Mix Blend` effect -->
+
+      <div class="mix-blend-multiply bg-blue-400 ...">
+             <!-- ^^^^^^^^^^^^^^^^^^ this class will mix the background color of the overlap elements -->
+                          
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+        deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+      </div>
+      <div class="mix-blend-multiply bg-pink-400 ...">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus
+        deleniti iusto delectus alias natus quam dolor explicabo quas eius!
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Background Size
+  bg-auto	    background-size: auto;
+  bg-cover	  background-size: cover;
+  bg-contain	background-size: contain;
+-->
+
+<!-- Background Repeat
+  bg-repeat	      background-repeat: repeat;
+  bg-no-repeat	  background-repeat: no-repeat;
+  bg-repeat-x	    background-repeat: repeat-x;
+  bg-repeat-y	    background-repeat: repeat-y;
+  bg-repeat-round	background-repeat: round;
+  bg-repeat-space	background-repeat: space;
+-->
+
+<!-- Background Position
+  bg-bottom	      background-position: bottom;
+  bg-center	      background-position: center;
+  bg-left	        background-position: left;
+  bg-left-bottom	background-position: left bottom;
+  bg-left-top	    background-position: left top;
+  bg-right	      background-position: right;
+  bg-right-bottom	background-position: right bottom;
+  bg-right-top	  background-position: right top;
+  bg-top	        background-position: top;
+-->
+
+<!-- Background Attachment
+  bg-fixed	  background-attachment: fixed;
+  bg-local	  background-attachment: local;
+  bg-scroll	  background-attachment: scroll;
+-->
+
+<!-- 
+  Shadows
+  shadow-sm	    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  shadow	      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  shadow-md	    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  shadow-lg	    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  shadow-xl	    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  shadow-2xl	  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  shadow-inner	box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  shadow-none	  box-shadow: 0 0 #0000;
+ -->
+
+```
+

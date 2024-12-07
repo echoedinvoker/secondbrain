@@ -14,6 +14,7 @@ hubs:
 3. [[2024-11-02_SvelteKit-Crash-Course|SvelteKit Crash Course]]
 4. [[2024-11-03_Project1:-Prodect-Landing-Page-with-Stripe-Integration|Project1: Prodect Landing Page with Stripe Integration]]
 5. [[2024-11-24_Project-2:-Developer-portfolio-with-headless-CMS|Project 2: Developer portfolio with headless CMS]]
+6. [[2024-12-07_Project-3:-Personal-book-library-with-supabase-authentication|Project 3: Personal book library with supabase authentication]]
 
 
 

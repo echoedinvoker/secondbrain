@@ -4,7 +4,7 @@ type: fact
 aliases:
   -
 hubs:
-  - "[[]]"
+  - "[[WASM]]"
 ---
 
 # create memory in WebAssembly and export it to JavaScript
