@@ -9,8 +9,7 @@ hubs:
 
 # Rust built in Option enum, taking care of may or may not getting thing issue
 
-
-[[2024-11-11_Enum-variant-don't-need-to-tie-key-value-pairs|Enum variant don't need to tie key value pairs]]
+[[2024-11-11_Enum-variant-dont-need-to-tie-key-value-pairs|Enum variant don't need to tie key value pairs]]
 
 ```rust
 enum Option<Value> {

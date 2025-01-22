@@ -16,7 +16,7 @@ From [[2024-11-16_Create-Iter-from-a-vector-and-iterate-it-manually|this topic]]
 
 But there is still one important thing that has not been mentioned, this pointer pointing to the vector's element is a **READ-ONLY** reference.
 
-![iter-read-only.png](../assets/imgs/iter-read-only.png)
+![iter-read-only.png](../../assets/imgs/iter-read-only.png)
 It means when we use the Iter consumer or adapter, their closure gets the Iter pointer to vector's element, and they can only read the element, not modify it. Below is the example:
 
 ```rust

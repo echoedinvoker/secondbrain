@@ -13,4 +13,5 @@ hubs:
 59. [[2024-12-03_Init-Our-Code|Init Our Code]]
 61. [[2024-12-03_Use-JS-fn-in-Rust-code|Import FN to webassembly]]
 62. [[2024-12-03_Use-bootstrap.js-to-wrap-and-load-index.js|Bootstrap]]
+63. [[2024-12-07_Change-memory-allocator-used-to-build-wasm-file|Wee alloc]]
 

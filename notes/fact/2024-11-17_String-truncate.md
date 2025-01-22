@@ -21,4 +21,4 @@ fn main() {
 
 We visualize it as follows:
 
-![string-truncate.png](../assets/imgs/string-truncate.png)
+![string-truncate.png](../../assets/imgs/string-truncate.png)

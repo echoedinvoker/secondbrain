@@ -43,6 +43,6 @@ None
 
 Below we will visualize the codes above:
 
-![create-Iter-from-Vec.png](../assets/imgs/create-Iter-from-Vec.png)
+![create-Iter-from-Vec.png](../../assets/imgs/create-Iter-from-Vec.png)
 
-![manually-iter.png](../assets/imgs/manually-iter.png)
+![manually-iter.png](../../assets/imgs/manually-iter.png)

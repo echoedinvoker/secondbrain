@@ -9,7 +9,7 @@ hubs:
 
 # Deciding when to use enums vs structs when there are many things need to define
 
-![flowchart-to-decide-enum-vs-struct.png](../assets/imgs/flowchart-to-decide-enum-vs-struct.png)
+![flowchart-to-decide-enum-vs-struct.png](../../assets/imgs/flowchart-to-decide-enum-vs-struct.png)
 
 Simply put, use enums when every thing requires the same methods, otherwise use structs.
 

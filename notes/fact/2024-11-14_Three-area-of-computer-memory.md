@@ -15,7 +15,7 @@ There are three main areas of computer memory. They are:
 - Data segment, Rodata(read-only data) segment, and Static segment
 
 
-## quilities of each area
+## qualities of each area
 
 **Stack**
 Fast, but limited in size (2-8MB)
