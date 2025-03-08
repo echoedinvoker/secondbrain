@@ -16,9 +16,9 @@ Supabase is just a Postgres database with lots of features like authentication, 
 
 
 
-![supa1.png](../assets/imgs/supa1.png)
+![supa1.png](../../assets/imgs/supa1.png)
 
-![supa2.png](../assets/imgs/supa2.png)
+![supa2.png](../../assets/imgs/supa2.png)
 
 
 Get the variables above and put them in the `.env` file.
@@ -36,9 +36,9 @@ PUBLIC_SUPABASE_URL=https://oqpbjpibdgssyuqwqbts.supabase.co
 
 Got to `authentication / Providers` page of Supabase dashboard and disable the email confirmation in the `Email` provider (just for easy testing purposes).
 
-![supa3.png](../assets/imgs/supa3.png)
+![supa3.png](../../assets/imgs/supa3.png)
 
-![supa4.png](../assets/imgs/supa4.png)
+![supa4.png](../../assets/imgs/supa4.png)
 
 Above figure shows that we disable email confirmation so that we can use any email to sign up and login without confirmation, which is easy for testing purposes. And don't forget to click the save button after that...
 

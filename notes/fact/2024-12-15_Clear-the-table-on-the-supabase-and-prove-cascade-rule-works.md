@@ -9,7 +9,7 @@ hubs:
 
 # Clear the table on the supabase and prove cascade rule works
 
-![cascade1.png](../assets/imgs/cascade1.png)
+![cascade1.png](../../assets/imgs/cascade1.png)
 
-![cascade2.png](../assets/imgs/cascade2.png)
+![cascade2.png](../../assets/imgs/cascade2.png)
 

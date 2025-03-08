@@ -29,3 +29,4 @@ hubs:
 95. [[2024-12-14_Fix-logout|Fix logout]]
 96. [[2024-12-15_Fetch-books-from-supabase|Fetch books from supabase]]
 97. [[2024-12-16_Fetch-logged-user-name-and-present-it-on-the-header|Fetch & Display username]]
+98. [[2025-02-23_Better-structure-for-components|Better structure for components]]

@@ -35,7 +35,7 @@ rm -rf supabase # this folder is useless, you can delete it
 
 We got the project id here:
 
-![prj-id.png](../assets/imgs/prj-id.png)
+![prj-id.png](../../assets/imgs/prj-id.png)
 Then, we generate a file with types as below:
 
 ```ts

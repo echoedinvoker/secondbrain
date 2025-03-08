@@ -96,6 +96,8 @@ src/
   type ComponentProps = AnchorProps | ButtonProps;
 
   ...
+</script>
+...
 ```
 
 Next, in login page, form should only have email and password inputs, so we need to remove other inputs by checking the value of isRegister prop.

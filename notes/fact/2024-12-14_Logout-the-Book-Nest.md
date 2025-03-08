@@ -64,7 +64,7 @@ Then, we can use this method on the button in the Header component:
 <script lang="ts">
   import bookNextLogo from '$assets/app-logo.svg';
   import { Button } from '$components';
-    import { getUserState } from './state/user-state.svelte';
+  import { getUserState } from './state/user-state.svelte';
 
   let userState = getUserState()
   let { user } = $derived(userState)

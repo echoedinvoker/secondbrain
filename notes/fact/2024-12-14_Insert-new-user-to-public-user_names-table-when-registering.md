@@ -80,9 +80,9 @@ The CRUD operations to the public tables are very simple, you can check the [off
 
 Now, we can try to register a new user and check if the user is inserted into the public.user_names table in the Supabase dashboard:
 
-![insert-user1.png](../assets/imgs/insert-user1.png)
+![insert-user1.png](../../assets/imgs/insert-user1.png)
 
-![insert-user2.png](../assets/imgs/insert-user2.png)
+![insert-user2.png](../../assets/imgs/insert-user2.png)
 
 You can see that the new user is inserted into both the auth.users table and the public.user_names table. And the user_id is successfully linked between these two tables.
 
