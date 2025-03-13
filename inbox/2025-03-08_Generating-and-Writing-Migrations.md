@@ -120,4 +120,3 @@ exports.down = (pgm) => {
 The next topic we will learn how to apply this migration file to our database.
 
 
-
