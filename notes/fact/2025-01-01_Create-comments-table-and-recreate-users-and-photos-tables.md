@@ -9,7 +9,7 @@ hubs:
 
 # Create comments table and recreate users and photos tables
 
-![users-photos-comments-diagram.png](../assets/imgs/users-photos-comments-diagram.png)
+![users-photos-comments-diagram.png](../../assets/imgs/users-photos-comments-diagram.png)
 
 In this topic, we will create a new table called `comments` which definitely has some relationships with the `users` and `photos` tables.
 

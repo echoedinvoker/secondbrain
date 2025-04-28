@@ -11,7 +11,7 @@ hubs:
 
 Assuming in our app, users can comment on their own photos, I want to query the photo URL and comment contents for all such occurrences.
 
-![comment-own-photo-diagram.png](../assets/imgs/comment-own-photo-diagram.png)
+![comment-own-photo-diagram.png](../../assets/imgs/comment-own-photo-diagram.png)
 
 From the diagram above, it can be seen that the operations in the blue and green parts are simply inner joins, but the operation in the red part is a typical where clause, and it acts on an imaginary table.
 

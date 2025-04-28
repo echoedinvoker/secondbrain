@@ -28,9 +28,9 @@ GROUP BY user_id;  -- we call `user_id` a `grouped column`
 
 Let's visualize the `GROUP BY` operation:
 
-![group-by-unique.png](../assets/imgs/group-by-unique.png)
+![group-by-unique.png](../../assets/imgs/group-by-unique.png)
 
-![move-to-group.png](../assets/imgs/move-to-group.png)
+![move-to-group.png](../../assets/imgs/move-to-group.png)
 
 With `GROUP BY`, we cannot select original columns anymore except of grouped column (in this case `user_id`).
 

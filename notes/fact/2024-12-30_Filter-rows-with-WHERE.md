@@ -24,4 +24,4 @@ SELECT name, area FROM cities WHERE area > 4000;
 
 When we analyze a SQL query, do not assume that the execution order is from front to back. The actual order is as follows:
 
-![query-order.png](../assets/imgs/query-order.png)
+![query-order.png](../../assets/imgs/query-order.png)

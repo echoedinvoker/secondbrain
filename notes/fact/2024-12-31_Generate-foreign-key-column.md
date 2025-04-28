@@ -9,7 +9,7 @@ hubs:
 
 # Generate foreign key column
 
-![photo-table-schema.png](../assets/imgs/photo-table-schema.png)
+![photo-table-schema.png](../../assets/imgs/photo-table-schema.png)
 
 Let's say we want to create a new column in the `photos` table as above, which is similar to [[2024-12-30_Generate-id-column|create create users table]] but with a foreign key constraint to the `users` table.
 

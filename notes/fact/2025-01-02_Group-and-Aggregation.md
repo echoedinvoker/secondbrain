@@ -9,7 +9,7 @@ hubs:
 
 # Group and Aggregation
 
-![group-and-aggregation.png](../assets/imgs/group-and-aggregation.png)
+![group-and-aggregation.png](../../assets/imgs/group-and-aggregation.png)
 
 Grouping generates fewer rows from many rows, while aggregation produces a single value.
 

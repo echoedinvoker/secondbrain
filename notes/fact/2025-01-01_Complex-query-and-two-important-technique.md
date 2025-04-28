@@ -13,13 +13,13 @@ In [[2025-01-01_Create-comments-table-and-recreate-users-and-photos-tables|this 
 
 When queries are very complex, two important techniques are **JOIN** and **AGGREGATION**.
 
-![complex-queries-two-tech.png](../assets/imgs/complex-queries-two-tech.png)
+![complex-queries-two-tech.png](../../assets/imgs/complex-queries-two-tech.png)
 
 When our needs involve multiple resources, we may need to use `JOIN` to group columns from different tables to a single row.
 
-![multiple-resource-join.png](../assets/imgs/multiple-resource-join.png)
+![multiple-resource-join.png](../../assets/imgs/multiple-resource-join.png)
 
 When we need to summarize a result from multiple rows, we may need to use `AGGREGATION`.
 
 
-![single-result-out-of-multiple-columns.png](../assets/imgs/single-result-out-of-multiple-columns.png)
+![single-result-out-of-multiple-columns.png](../../assets/imgs/single-result-out-of-multiple-columns.png)

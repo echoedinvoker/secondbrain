@@ -11,8 +11,8 @@ hubs:
 
 1. [[2024-12-29_Simple:-But-Powerful:-SQL-Statements|Simple: But Powerful: SQL Statements]]
 2. [[2024-12-30_Filtering-Records|Filtering Records]]
-3. [[2024-12-30_Working-with-Tables|Working with Tables]]
-4. [[2025-01-01_Relating-Records-with-Joins|Relating Records with Joins]]
+3. [[2024-12-30_Working-with-Tables|Working with Tables]] done
+4. [[2025-01-01_Relating-Records-with-Joins|Relating Records with Joins]] done
 5. [[2025-01-02_Aggregation-of-Records|Aggregation of Records]]
 6. [[2025-01-03_Working-with-Large-Datasets|Working with Large Datasets]]
 7. [[2025-01-03_Sorting-Records|Sorting Records]]
@@ -39,3 +39,8 @@ hubs:
 29. [[2025-02-20_Optimizing-Queires-with-Materialized-Views|Optimizing Queires with Materialized Views]]
 30. [[2025-02-24_Handling-Concurrency-and-Reversibility-with-Transactions|Handling Concurrency and Reversibility with Transactions]]
 31. [[2025-02-28_Managing-Database-Design-with-Schema-Migrations|Managing Database Design with Schema Migrations]]
+32. [[2025-04-07_Section:-Schema-vs-Data-Migrations|Section: Schema vs Data Migrations]]
+33. [[2025-04-17_Accessing-PostgreSQL-From-APIs|Accessing PostgreSQL From APIs]]
+34. [[2025-04-18_Data-Access-Pattern:-Repositories|Data Access Pattern: Repositories]]
+35. [[2025-04-18_Security-Around-PostgreSQL|Security Around PostgreSQL]]
+36. [[2025-04-21_Fast-Parallel-Testing|Fast Parallel Testing]]

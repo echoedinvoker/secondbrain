@@ -11,7 +11,7 @@ hubs:
 
 In [[2025-01-01_Where-with-join|this topic]], we use `WHERE` to filter on imaginary table. Now, we want one more column `username`, which is in `users` table.
 
-![username-additional.png](../assets/imgs/username-additional.png)
+![username-additional.png](../../assets/imgs/username-additional.png)
 
 Because `username` is in `users` table, we need to use `JOIN` again in the query:
 

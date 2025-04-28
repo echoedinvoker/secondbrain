@@ -29,4 +29,4 @@ The photo may be a default photo or a photo for homepage, so it's not necessary 
 
 Finally, we can conclude that the foreign key constrains around insertion can be:
 
-![foreign-key-constrains.png](../assets/imgs/foreign-key-constrains.png)
+![foreign-key-constrains.png](../../assets/imgs/foreign-key-constrains.png)

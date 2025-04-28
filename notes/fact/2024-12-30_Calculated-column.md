@@ -44,4 +44,4 @@ FROM cities;
 
 ## Math operators
 
-![math-operators.png](../assets/imgs/math-operators.png)
+![math-operators.png](../../assets/imgs/math-operators.png)

@@ -16,3 +16,4 @@ hubs:
 235. [[2025-03-07_Project-Creation|Project Creation]]
 236. [[2025-03-08_Generating-and-Writing-Migrations|Generating and Writing Migrations]]
 237. [[2025-03-13_Applying-and-Reverting-Migrations|Applying and Reverting Migrations]]
+238. [[2025-04-07_Generating-and-Applying-a-Second-Migration|Generating and Applying a Second Migration]]

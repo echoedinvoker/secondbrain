@@ -13,6 +13,7 @@ hubs:
 cd /path/to/your/project
 pipenv shell
 pipenv install "langgraph-cli[inmem]"
+pip install "langgraph-cli[inmem]"
 
 ```
 

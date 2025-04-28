@@ -13,7 +13,7 @@ In [[2024-12-30_Filter-rows-with-WHERE|this topic]], we learned how to filter ro
 
 There are other comparison operators that can be used in the `WHERE` clause. Here are some of them:
 
-![comparison-math-operators.png](../assets/imgs/comparison-math-operators.png)
+![comparison-math-operators.png](../../assets/imgs/comparison-math-operators.png)
 
 ```sql
 SELECT name, area FROM cities WHERE area = 8223;

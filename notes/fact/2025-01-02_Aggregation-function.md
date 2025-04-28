@@ -11,7 +11,7 @@ hubs:
 
 In [[2025-01-02_Group-and-Aggregation|this topic]], we said that aggregation gets single value through `aggregation function`, here is the list of aggregation functions:
 
-![aggr-list.png](../assets/imgs/aggr-list.png)
+![aggr-list.png](../../assets/imgs/aggr-list.png)
 
 Let's try to use them:
 
@@ -27,7 +27,7 @@ FROM comments;
 
 ```
 
-![aggregate-to-single.png](../assets/imgs/aggregate-to-single.png)
+![aggregate-to-single.png](../../assets/imgs/aggregate-to-single.png)
 
 
 However, it is important to note that once an aggregation function is used in the SELECT clause, columns cannot be selected again, for example:

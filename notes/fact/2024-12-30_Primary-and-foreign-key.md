@@ -29,7 +29,7 @@ Be noted that **foreign key** can be null and not unique which is very different
 
 We can use **primary key** and **foreign key** to implement a one-to-many and many-to-one relationship between two tables - `users` and `posts`.
 
-![implement-one-many.png](../assets/imgs/implement-one-many.png)
+![implement-one-many.png](../../assets/imgs/implement-one-many.png)
 
 
 

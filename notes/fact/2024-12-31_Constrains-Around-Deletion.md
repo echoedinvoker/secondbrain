@@ -24,4 +24,4 @@ DETAIL:  Key (id)=(4) is still referenced from table "photos".
 
 Obviously, the database will prevent the deletion of the record that is still referenced by a foreign key. That's just a default behavior, we can change it by using the `ON DELETE` clause when creating the foreign key, there are options as follows:
 
-![deletion-constrains.png](../assets/imgs/deletion-constrains.png)
+![deletion-constrains.png](../../assets/imgs/deletion-constrains.png)

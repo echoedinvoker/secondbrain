@@ -9,11 +9,11 @@ hubs:
 
 # Joining Data from Different Tables
 
-![requirement-content-username.png](../assets/imgs/requirement-content-username.png)
+![requirement-content-username.png](../../assets/imgs/requirement-content-username.png)
 
 For this topic, we need to fulfill the requirements above, and the results should be as shown in the table above.
 
-![logic-query-from-database.png](../assets/imgs/logic-query-from-database.png)
+![logic-query-from-database.png](../../assets/imgs/logic-query-from-database.png)
 
 According to the logic of the above diagram, we can write the SQL query as follows:
 

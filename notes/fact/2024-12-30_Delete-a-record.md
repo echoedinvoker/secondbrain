@@ -10,10 +10,6 @@ hubs:
 # Delete a record
 
 ```sql
-DELETE FROM    -- be careful, it's `DELETE FROM` not `DELETE`, the latter is to delete a table instead of a record
-  cities       -- it's a bit like `INSERT INTO` keyword that specifies the table but act on the record
-WHERE
-  name = 'Tokyo';
-
+DELETE FROM cities -- 1. filter the table to delete
+WHERE name = 'Tokyo'; -- 2. filter the record
 ```
-

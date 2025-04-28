@@ -11,7 +11,7 @@ hubs:
 
 In this topic, we will discuss some notes about `JOIN` as follows:
 
-![notes-of-join.png](../assets/imgs/notes-of-join.png)
+![notes-of-join.png](../../assets/imgs/notes-of-join.png)
 
 
 **First Note: Table order between `JOIN` and `FROM` makes difference**`

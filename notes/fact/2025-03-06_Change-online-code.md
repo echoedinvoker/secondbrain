@@ -64,7 +64,7 @@ generation_chain = (
 
 Let's run the graph with new thread on the LangGraph Studio to check if the updated code works.
 
-![answer-like-pirate-on-studio.png](.../assets/imgs/answer-like-pirate-on-studio.png)
+![answer-like-pirate-on-studio.png](../../assets/imgs/answer-like-pirate-on-studio.png)
 
 It can be seen that the final answer of the graph is completely in the style of a pirate, proving that modifying the code directly can directly affect the operation of LangGraph Studio. This is very helpful for us in developing new features.
 

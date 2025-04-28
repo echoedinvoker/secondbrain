@@ -9,7 +9,7 @@ hubs:
 
 # Generate id column
 
-![users-table-id.png](../assets/imgs/users-table-id.png)
+![users-table-id.png](../../assets/imgs/users-table-id.png)
 
 Let's say we want to create a new table as above.
 

@@ -11,7 +11,7 @@ hubs:
 
 In [[2024-12-30_Calculated-column|this topic]], we introduced some math operators. In this topic, we will introduce some string operators.
 
-![string-operators.png](../assets/imgs/string-operators.png)
+![string-operators.png](../../assets/imgs/string-operators.png)
 
 ```sql
 SELECT name || ', ' || country AS location
