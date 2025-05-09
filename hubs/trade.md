@@ -101,3 +101,5 @@
 [[2025-04-27_Multiple-time-frame-exmaples|Multiple time frame exmaples]]
 [[2025-04-27_Understand-the-big-pictures|Understand the big pictures]]
 [[2025-04-27_Entry-with-confluence-strategy|Entry with confluence strategy]]
+[[2025-04-28_Live-trade-1:-Confluence-strategy|Live trade 1: Confluence strategy]]
+[[2025-04-28_Live-trade-2:-Confluence-strategy|Live trade 2: Confluence strategy]]
