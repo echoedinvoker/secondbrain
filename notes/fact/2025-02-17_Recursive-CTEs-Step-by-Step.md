@@ -27,14 +27,14 @@ SELECT * FROM coundown;
 
 Both table takes the parameter `val` as an column. It also means that you can put multiple parameters inside the parentheses.
 
-![define-two-tables.png](../assets/imgs/define-two-tables.png)
+![define-two-tables.png](../../assets/imgs/define-two-tables.png)
 
 
 ## Step 2: Run initial query and put the results to the both tables
 
 The initial query is `SELECT 3 AS val`. It will put the result `3` to the both tables.
 
-![initial-both-tables.png](../assets/imgs/initial-both-tables.png)
+![initial-both-tables.png](../../assets/imgs/initial-both-tables.png)
 
 ## Step 3: Run recursive query and `countdown` refers to the working table in this query
 
@@ -44,7 +44,7 @@ SELECT val - 1 FROM coundown WHERE val > 1
 --                  ^^^^^^^^ refers to the working table
 ```
 
-![run-recursive-query2.png](../assets/imgs/run-recursive-query2.png)
+![run-recursive-query2.png](../../assets/imgs/run-recursive-query2.png)
 
 ## Step 4: If step 3 returns any rows, APPEND the results to the results table and OVERWRITE the working table with the results, then go back to step 3
 

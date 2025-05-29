@@ -11,25 +11,25 @@ hubs:
 
 Assuming we want to create an app that allows users to input a *language* and *task*, and then receive the corresponding *code*.
 
-![get-task-code.png](../assets/imgs/get-task-code.png)
+![get-task-code.png](../../assets/imgs/get-task-code.png)
 
 In the above framework, OpenAI's AI model is used, but sometimes there are problems, so the ability to switch models flexibly is needed.
 
-![flexibly-switch-models.png](../assets/imgs/flexibly-switch-models.png)
+![flexibly-switch-models.png](../../assets/imgs/flexibly-switch-models.png)
 If I need to add some processes after obtaining the code, such as checking for errors, we can easily extend it.
 
-![extend-the-process-tasks.png](../assets/imgs/extend-the-process-tasks.png)
+![extend-the-process-tasks.png](../../assets/imgs/extend-the-process-tasks.png)
 
 We can see some repeated patterns from the above figure.
 
-![repeat-pattern.png](../assets/imgs/repeat-pattern.png)
+![repeat-pattern.png](../../assets/imgs/repeat-pattern.png)
 
 Based on the above analysis, the Chain class is proposed. There are two big goals for it:
 
 **1. Provide tools to automate each step of a text generation pipeline**
 **2. Make it easy to connect tools together**
 
-![chain-layout.png](../assets/imgs/chain-layout.png)
+![chain-layout.png](../../assets/imgs/chain-layout.png)
 
 - We use Chains to make reusable text-generation pipelines. 
 - Chains can be connected together to make a more complex pipeline.

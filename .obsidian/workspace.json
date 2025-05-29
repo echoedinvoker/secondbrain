@@ -8,155 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d153e6690323ac77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hubs/Next.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Next"
-            }
-          },
-          {
-            "id": "c5a339285e9ad8ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hubs/Next.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Next"
-            }
-          },
-          {
-            "id": "9c6e04364d51da92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/index/2024-10-12_Next-JS:-The-Complete-Developer's-Guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-10-12_Next-JS:-The-Complete-Developer's-Guide"
-            }
-          },
-          {
-            "id": "7b66a170bf7fa0e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/index/2024-10-12_Get-Start-Here!.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-10-12_Get-Start-Here!"
-            }
-          },
-          {
-            "id": "e0c4f5200a36bc09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/index/2024-10-12_Project-Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-10-12_Project-Overview"
-            }
-          },
-          {
             "id": "1b1607175e687a2d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "84565f458ba66786",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/2025-03-26_TODOS-project-9:-endopint-to-add-new-todo-to-database.md",
+                "file": "notes/index/2025-02-11_LangChain:-Develop-LLM-powered-applications-with-LangChain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-26_TODOS-project-9:-endopint-to-add-new-todo-to-database"
+              "title": "2025-02-11_LangChain:-Develop-LLM-powered-applications-with-LangChain"
             }
           },
           {
-            "id": "e9d1d91aebc1e449",
+            "id": "204d46e58b81c400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/index/2024-10-26_Implementing-Search-Functionality.md",
+                "file": "notes/index/2025-02-11_The-GIST-of-LangChain:-Get-started-by-with-your-Hello-World-chain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-26_Implementing-Search-Functionality"
+              "title": "2025-02-11_The-GIST-of-LangChain:-Get-started-by-with-your-Hello-World-chain"
             }
           },
           {
-            "id": "190fbb1964de5fc3",
+            "id": "739371c19ac8b0fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/index/2024-10-26_Notes-on-QueryStrings-in-Next.md",
+                "file": "notes/fact/2025-02-11_Using-Open-Source-Models-With-LangChain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-26_Notes-on-QueryStrings-in-Next"
-            }
-          },
-          {
-            "id": "7a25e3a8b9fd5d86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/index/2024-10-12_Next-JS:-The-Complete-Developer's-Guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-10-12_Next-JS:-The-Complete-Developer's-Guide"
-            }
-          },
-          {
-            "id": "c0a0e971e14120f3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "title": "2025-02-11_Using-Open-Source-Models-With-LangChain"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TODOS pro",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "81687622c8f6ff1e",
@@ -299,34 +194,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84565f458ba66786",
+  "active": "739371c19ac8b0fe",
   "lastOpenFiles": [
-    "inbox/2025-03-25_TODOS-project.md",
-    "inbox/2025-03-27_TODOS-project-12:-use-router-to-connect-fastapi-to-other-file.md",
-    "inbox/2025-03-26_TODOS-project-11:-endpoint-to-delete-specific-todo.md",
-    "inbox/2025-03-26_TODOS-project-10:-endpoint-to-update-specific-todo.md",
-    "inbox/2025-03-26_TODOS-project-9:-endopint-to-add-new-todo-to-database.md",
-    "inbox/2025-03-26_TODOS-project-8:-endpoint-to-query-specific-todo-with-id.md",
-    "inbox/2025-03-26_TODOS-project-7:-dependencies-inject-and-query-all-todos-from-FastAPI.md",
-    "inbox/2025-03-26_TODOS-project-6:-sqlite3-display-modes.md",
-    "inbox/2025-03-26_TODOS-project-5:-CRUD-by-sqlite3.md",
-    "inbox/2025-03-26_TODOS-project-4:-Connect-sqlite-database-from-terminal-and-using-SQL-script-to-query.md",
-    "inbox/2025-03-26_TODOS-project-3:-create-database-by-fastAPI.md",
-    "inbox/2025-03-25_TODOS-project-2:-Create-a-model-for-todos-table.md",
-    "inbox/2025-03-25_TODOS-project-1:-database-connection-with-ORM-SQLAlchemy.md",
-    "notes/fact/2024-10-12_Create-a-next-project.md",
-    "notes/index/2024-10-12_Project-Overview.md",
-    "notes/index/2024-10-12_Get-Start-Here!.md",
-    "notes/index/2024-10-12_Next-JS:-The-Complete-Developer's-Guide.md",
-    "hubs/Next.md",
-    "notes/fact/2024-10-26_Get-query-string-in-client-component.md",
-    "notes/index/2024-10-26_Notes-on-QueryStrings-in-Next.md",
-    "notes/index/2024-10-26_Implementing-Search-Functionality.md",
-    "hubs/sv5.md",
-    "inbox/2024-11-24_Send-email-through-SendGrid.md",
-    "inbox/2024-11-24_Send-out-email-with-digital-product-on-payment-webhook-from-stripe.md",
-    "notes/index/2024-11-03_Project1:-Prodect-Landing-Page-with-Stripe-Integration.md",
-    "notes/index/2024-11-01_Master-Svelte-5-&-SvelteKit---Build-&-Deploy-Real-World-Apps.md",
+    "notes/index/2025-02-11_The-GIST-of-LangChain:-Get-started-by-with-your-Hello-World-chain.md",
+    "notes/index/2025-02-11_LangChain:-Develop-LLM-powered-applications-with-LangChain.md",
+    "hubs/langchain.md",
+    "notes/index/2025-01-26_ChatGPT-and-LangChain:-The-Complete-Developers-Masterclass.md",
+    "notes/fact/2025-02-03_More-Handler-Implementation.md",
+    "notes/index/2025-01-30_Empower-ChatGPT-with-Tools-and-Agents.md",
+    "notes/fact/2025-02-03_Implementing-a-Basic-Callback-Handler.md",
+    "notes/fact/2025-02-03_Understanding-Callbacks.md",
+    "notes/fact/2025-02-03_Preserving-Messages-with-Agent-Executor.md",
+    "notes/fact/2025-02-01_Tools-with-Multiple-Arguments.md",
+    "notes/fact/2025-02-01_Adding-Better-Descriptions-for-Tool-Arguments.md",
+    "notes/fact/2025-02-01_Being-Direct-with-System-Messages.md",
+    "notes/fact/2025-02-01_Adding-a-Table-Description-Tool.md",
+    "notes/fact/2025-02-01_Optimize-LangGraph-application.md",
+    "notes/fact/2025-01-31_Defining-a-Tool.md",
+    "notes/fact/2025-01-30_Understanding-Tools.md",
+    "notes/fact/2025-01-30_App-Overview.md",
+    "notes/fact/2025-01-28_Project-Overview.md",
+    "notes/fact/2025-01-28_Adding-Context-wit-Embedding-Techniques.md",
+    "notes/fact/2025-01-26_Deep-Dive-into-interactions-with-Memory-Management.md",
+    "notes/fact/2025-01-28_Summarizations-COnversation-Summary-Memory.md",
+    "notes/fact/2025-01-27_Saving-and-Extending-Conversations.md",
+    "notes/fact/2025-01-27_Using-ChatBufferMemory-to-Store-Conversations.md",
+    "notes/fact/2025-01-27_Implementing-a-Chat-Chain.md",
+    "notes/fact/2025-01-26_Chat-vs-Completion-Style-Models.md",
+    "notes/fact/2025-01-26_Receiving-User-Input.md",
     "inbox/2024-10-24_Notodo-routes-and-data-plan.md~",
     "notes/index/2024-10-21_Using-Data:-Database-Queries.md~",
     "inbox/2024-10-23_Recursive-component.md~"

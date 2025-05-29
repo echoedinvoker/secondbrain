@@ -11,7 +11,7 @@ hubs:
 
 Imagine money transferring between two people. As long as one person hands the money to the other, this is a transaction. However, if it is between two accounts in a database, this process must be written in SQL as follows:
 
-![withdraw-add-update-crash.png](../assets/imgs/withdraw-add-update-crash.png)
+![withdraw-add-update-crash.png](../../assets/imgs/withdraw-add-update-crash.png)
 
 You will find that the SQL above is actually two UPDATE statements, but this will cause a problem where if the first UPDATE is successful and the server crashes, the second UPDATE cannot be executed.
 

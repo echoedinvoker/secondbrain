@@ -9,7 +9,7 @@ hubs:
 
 # Common Table Expressions
 
-![related-tables-present.png](../assets/imgs/related-tables-present.png)
+![related-tables-present.png](../../assets/imgs/related-tables-present.png)
 
 **Question:**
 Show the username of users who were tagged in a caption or photo before January 7th, 2010. Also show the date they were tagged.
@@ -20,6 +20,6 @@ Show the username of users who were tagged in a caption or photo before January 
 3. Finally, filter the results to show only the tags before January 7th, 2010.
 
 
-![union-then-join-strategy.png](../assets/imgs/union-then-join-strategy.png)
+![union-then-join-strategy.png](../../assets/imgs/union-then-join-strategy.png)
 
 

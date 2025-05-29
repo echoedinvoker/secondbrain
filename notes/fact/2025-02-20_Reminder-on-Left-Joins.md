@@ -15,13 +15,13 @@ Because we have always used inner JOIN, so below we will use the example from th
 
 1. LEFT JOIN `posts` to `likes`:
 
-![left-join-post-to-likes.png](../assets/imgs/left-join-post-to-likes.png)
+![left-join-post-to-likes.png](../../assets/imgs/left-join-post-to-likes.png)
 
 The difference between LEFT JOIN and inner JOIN is that the left table will retain all rows, and if there are no matching rows in the right table, NULL will be used to fill in all missing columns.
 
 2. LEFT JOIN `comments` to the result of the previous step:
 
-![left-join-comment-to-result.png](../assets/imgs/left-join-comment-to-result.png)
+![left-join-comment-to-result.png](../../assets/imgs/left-join-comment-to-result.png)
 
 Then, we finally got the result of the three way join(LEFT JOIN)
 

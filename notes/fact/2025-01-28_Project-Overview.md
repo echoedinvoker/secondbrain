@@ -9,7 +9,7 @@ hubs:
 
 # Project Overview
 
-![project-overview-4.png](../assets/imgs/project-overview-4.png)
+![project-overview-4.png](../../assets/imgs/project-overview-4.png)
 
 The file may not be a .txt, it could also be in other formats such as .pdf, .docx, etc.
 
